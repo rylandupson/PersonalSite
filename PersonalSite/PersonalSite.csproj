@@ -67,7 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\favicon.ico" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="contact.html" />
+    <Content Include="images\danielle.jpg" />
+    <Content Include="images\david.png" />
+    <Content Include="images\Jake.jpg" />
+    <Content Include="images\ryan.jpg" />
+    <Content Include="images\WIN_20210602_19_04_18_Pro %282%29.jpg" />
+    <Content Include="projects.html" />
+    <Content Include="links.html" />
+    <Content Include="resume.html" />
+    <Content Include="index.html" />
+    <Content Include="js\scripts.js" />
     <Content Include="Web.config" />
+    <Content Include="_archive\assets\favicon.ico" />
+    <Content Include="_archive\css\styles.css" />
+    <Content Include="_archive\index.html" />
+    <Content Include="_archive\js\scripts.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +99,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
