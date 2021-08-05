@@ -22,9 +22,9 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="links.html">Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,34 +39,45 @@
         </header>
         <!-- Content section-->
         <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Classmates</h2>
-                        <p class="lead">A list of fellow Centriq Graduates:<p>
-                        <p class="mb-0">
-                            <ul>
-                                <li>
-                                    <img src="images/ryan.jpg" width="150px" />
-                                    <a href="http://www.ryanjpalmer.net" target="_blank">Ryan Palmer</a>
-                                </li>
-                                <li>
-                                    <img src="images/danielle.jpg" width="150px" />
-                                    <a href="http://www.daniellethedev.com/" target="_blank">Danielle Smalley</a>
-                                </li>
-                                <li>
-                                    <img src="images/Jake.jpg" width="150px" />
-                                    <a href="http://www.jacobwoodworth.com/" target="blank">Jacob Woodworth</a>
-                                </li>
-                                <li>
-                                    <img src="images/david.png" width="150px" />
-                                    <a href="http://schejbalcodes.com/" target="_blank">David Schejbal</a>
-                                </li>
-                            </ul>
-                        </p>
+            <main class="container">
+                <form action="#" method="get" onsubmit="validateForm(event)">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="row text-center">
+                            <h2>Contact Me</h2>
+                            <p>(Not Currently Functional)</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                                <span id="rfvName" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                                <span id="rfvEmail" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                                <span id="rfvSubject" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                                <span id="rfvMessage" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success" value="Send Message" />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </form>
+            </main>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
